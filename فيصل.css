@@ -1,0 +1,89 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* الهيدر */
+header {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* تصميم الكروت */
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+/* شكل البطاقة (تصميم مختلف) */
+.card {
+    width: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+/* شكل مخصص لكل بطاقة */
+.playstation {
+    background: linear-gradient(135deg, #0044ff, #00aaff);
+}
+
+.steam {
+    background: linear-gradient(135deg, #333, #666);
+}
+
+.xbox {
+    background: linear-gradient(135deg, #107c10, #33cc33);
+}
+
+/* صورة البطاقة */
+.card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* تأثير عند تمرير الماوس */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* زر الشراء */
+button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+/* الفوتر */
+footer {
+    background-color: #1e1e1e;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+}
